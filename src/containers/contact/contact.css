@@ -1,0 +1,114 @@
+.sec1 {
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--font-family);
+}
+.get {
+    text-align: center;
+    font-size: 50px;
+    line-height: 75px;
+    font-family: var(--font-family);
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+h4 {
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    margin-top: 1rem;
+}
+p {
+    color: white;
+    font-family: var(--font-family);
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form h3 {
+    color: white;
+    font-family: var(--font-family);
+    padding-bottom: 20px;
+}
+form button {
+    background-color: #ff8A71;
+    font-family: var(--font-family);
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+input {
+    padding: 15px;
+    width: 400px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.mes {
+    height: 100px;
+    text-align: left;
+}
+figure {
+    margin-top: 20px;
+    cursor: pointer;
+}
+figure img:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 700px)  {
+    .sec1 {
+        flex-direction: column;
+    }
+
+    input {
+      width: 340px;
+      margin-left: 25px;
+    }
+    form button {
+        width: 340px;
+        margin-left: 25px;
+    }
+    .get {
+        text-align: center;
+        font-size: 25px;
+        line-height: 75px;
+        font-family: var(--font-family);
+        font-weight: 800;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    h4 {
+        color: white;
+        font-size: 13px;
+        line-height: 30px;
+        font-weight: 500;
+        font-family: var(--font-family);
+        margin-top: 1rem;
+        text-align: center;
+    }
+    form h3 {
+        color: white;
+        font-family: var(--font-family);
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    figure {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    p {
+        text-align: center;
+    }
+}

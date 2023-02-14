@@ -1,17 +1,31 @@
 import React from 'react';
-import possibilityImage from '../../assets/possibility.png';
+import possibilityImage from '../../assets/illust.png';
+import clock from '../../assets/clock.png';
+import circle from '../../assets/circle.png';
 import './possibility.css';
 
 const Possibility = () => (
-  <div className="gpt3__possibility section__padding" id="possibility">
+  <div className="gpt3__possibility section__padding" id="sermon">
     <div className="gpt3__possibility-image">
       <img src={possibilityImage} alt="possibility" />
     </div>
     <div className="gpt3__possibility-content">
-      <h4>Request Early Access to Get Started</h4>
-      <h1 className="gradient__text">The possibilities are <br /> beyond your imagination</h1>
-      <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
-      <h4>Request Early Access to Get Started</h4>
+      <h4>Upcoming Events</h4>
+      <h1 className="gradient__text">WATCH AND LISTEN TO OUR SERMONS EVERY SUNDAY</h1>
+      <p>We stream live our sunday sermons on <br /> facebook and mixlr.com/calvarymedia.</p>
+      <section className='one'>
+        <img className='clock' src={clock} alt={clock} />
+        <section>
+          <p>Sunday 07:00am WAT <br /> Tuesday 05:00am WAT</p>
+        </section>
+      </section>
+
+      <section className='one'>
+        <img className='clock' src={circle} alt={circle} />
+        <section>
+          <p>GOD IS ABLE EVANGELICAL MISSION <br /> TESTIMONY GROUND, <br /> AWKA RD ONITSHA, ANAMBRA STATE <br /> CC, HIAEM GERMANY, EUROPE</p>
+        </section>
+      </section>
     </div>
   </div>
 );

@@ -20,9 +20,11 @@
 .gpt3__possibility-content {
     flex: 1;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+    margin-left: 50px;
+    margin-top: 70px;
 }
 
 .gpt3__possibility-content h4 {
@@ -53,6 +55,21 @@
     line-height: 30px;
 
     margin-bottom: 2rem;
+}
+.clock {
+    background-color: white;
+    border-radius: 50%;
+}
+.one {
+    display: flex;
+    gap: 20px;
+}
+.one img {
+    position: absolute;
+}
+.one p {
+    margin-left: 50px;
+    margin-top: -10px;
 }
 
 @media screen and (max-width: 950px) {

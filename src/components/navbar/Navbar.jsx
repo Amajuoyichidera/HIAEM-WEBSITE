@@ -14,12 +14,12 @@ const Navbar = () => {
         </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
-          <p><a href="#wgpt3">About Us</a></p>
-          <p><a href="#possibility">Sermon</a></p>
+          <p><a href="#about">About Us</a></p>
+          <p><a href="#sermon">Sermon</a></p>
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <button type="button">Contact Us</button>
+        <button type="button"> <a href="#contact">Contact Us</a></button>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu
@@ -29,12 +29,11 @@ const Navbar = () => {
         <div className="gpt3__navbar-menu_container scale-up-center">
           <div className="gpt3__navbar-menu_container-links">
             <p><a href="#home">Home</a></p>
-            <p><a href="#wgpt3">About Us</a></p>
-            <p><a href="#possibility">Sermon</a></p>
+            <p><a href="#about">About Us</a></p>
+            <p><a href="#sermon">Sermon</a></p>
           </div>
           <div className="gpt3__navbar-menu_container-links-sign">
-            <p>Sign in</p>
-            <button type="button">Contact Us</button>
+            <button href="#contact" type="button">Contact Us</button>
           </div>
         </div>
         )}

@@ -4,28 +4,34 @@ import './features.css';
 
 const featuresData = [
   {
-    title: 'Improving end distrusts instantly',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    title: 'WATCH & LISTEN TO OUR SERMON',
+    text: 'Pray, listen and watch. The coming of Christ is so much closer than some realize. WATCH AND PRAY Matthew 26:41.',
   },
   {
     title: 'Become the tended active',
-    text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
+    text: 'Consequently, faith comes from hearing the message, and the message is heard through the word about Christ..',
   },
   {
-    title: 'Message or am nothing',
-    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
+    title: 'BE HEAVEN CONSCIOUS',
+    text: 'If then you have been raised with Christ, seek the things that are above, where Christ is, seated at the right hand of God. Set your minds on things that are above, not on things that are on earth. For you have died, and your life is hidden with Christ in God. When Christ who is your life appears, then you also will appear with him in glory. (Colossians 3:1–4).',
   },
   {
-    title: 'Really boy law county',
-    text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..',
+    title: 'SERVE GOD & LIVE RIGHT',
+    text: '“No one can serve two masters; for either he will hate the one and love the other, or he will be devoted to one and despise the other. You cannot serve God and wealth.',
   },
 ];
 
 const Features = () => (
-  <div className="gpt3__features section__padding" id="features">
+  <div className="gpt3__features section__padding" id="about">
     <div className="gpt3__features-heading">
-      <h1 className="gradient__text">The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h1>
-      <p>Request Early Access to Get Started</p>
+      <p>WELCOME TO OUR CHURCH !</p>
+      <h1 className="gradient__text">HE IS ABLE EVANGELICAL MISSION</h1>
+      <p>HE-IS-ABLE EVANGELICAL MISSION Started and still is a church, committed to the studying of God’s Word, evangelism and aggressive prayers in 1993,Between then and now, the church has grown and still growing with branches in many states in Nigeria, west, central and south Africa. The focus of the church has been in the following areas:</p>
+      <p>1. Soul winning </p>
+      <p>2. Discipleship of God’s people based on the wholesome Word of God</p>
+      <p>3. Preparing for the glorious rapture of the saints</p>
+      <p>4. Bringing down God’s awesome power for great revival in believers’ life, with the fire spreading among them that are not yet saved.</p>
+
     </div>
     <div className="gpt3__features-container">
       {featuresData.map((item, index) => (

@@ -29,8 +29,7 @@
     line-height: 30px;
     font-weight: 500;
     font-family: var(--font-family);
-
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .gpt3__features-container {
