@@ -44,6 +44,7 @@ form button {
     font-size: 20px;
     margin-bottom: 50px;
     cursor: pointer;
+    color: white;
 }
 input {
     padding: 15px;
