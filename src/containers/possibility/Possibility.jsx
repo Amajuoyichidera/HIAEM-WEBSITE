@@ -26,6 +26,7 @@ const Possibility = () => (
           <p>GOD IS ABLE EVANGELICAL MISSION <br /> TESTIMONY GROUND, <br /> AWKA RD ONITSHA, ANAMBRA STATE <br /> CC, HIAEM GERMANY, EUROPE</p>
         </section>
       </section>
+      <button className='view'> <a href="https://calvarymedia.mixlr.com/">View All Sermons</a></button>
     </div>
   </div>
 );

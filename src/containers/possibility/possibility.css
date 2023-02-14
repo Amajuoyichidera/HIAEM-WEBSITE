@@ -71,6 +71,22 @@
     margin-left: 50px;
     margin-top: -10px;
 }
+.view {
+    background-color: #FF4820;
+    color: white;
+    border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        padding: 1rem;
+        text-align: center;
+        background-color: #FF4820;
+        margin-bottom: 5rem;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 20px;
+}
 
 @media screen and (max-width: 950px) {
     .gpt3__possibility {

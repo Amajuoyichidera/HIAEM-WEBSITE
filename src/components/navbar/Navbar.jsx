@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../logo.svg';
+import logo1 from '../../assets/logo1.png';
 import './navbar.css';
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          <img src={logo} alt={logo} />
+          <img src={logo1} alt={logo1} />
         </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>

@@ -1,5 +1,5 @@
 import React from 'react';
-import gpt3Logo from '../../logo.svg';
+import Logo1 from '../../assets/logo1.png';
 import './footer.css';
 import Vector from '../../assets/Vector.png'
 import linkedin from '../../assets/linkedin.png'
@@ -18,7 +18,7 @@ const Footer = () => (
 
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
-        <img src={gpt3Logo} alt="gpt3_logo" />
+        <img src={Logo1} alt="Logo1" />
         <p>© Copyright hiaem 2023</p>
       </div>
       <div className="gpt3__footer-links_div">
