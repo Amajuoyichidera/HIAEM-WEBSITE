@@ -46,7 +46,7 @@
     min-height: 50px;
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 20px;
+    font-size: 12px;
     line-height: 28px;
     background: var(--color-footer);
     border: 2px solid var(--color-footer);
@@ -111,8 +111,8 @@
 }
 
 .gpt3__header-image img {
-    width: 90%;
-    height: 80%;
+    width: 100%;
+    height: 90%;
 }
 
 @media screen and (max-width: 1050px) {

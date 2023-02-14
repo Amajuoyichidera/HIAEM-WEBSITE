@@ -16,7 +16,7 @@ const Blog = () => (
         <Article imgUrl={blog02} date="WATCH & LISTEN TO OUR SERMON" text="Pray, listen and watch. The coming of Christ is so much closer than some realize. WATCH AND PRAY Matthew 26:41." />
         <Article imgUrl={blog03} date="Become the tended active" text="Consequently, faith comes from hearing the message, and the message is heard through the word about Christ." />
         <Article imgUrl={blog04} date="SERVE GOD & LIVE RIGHT" text="No one can serve two masters; for either he will hate the one and love the other, or he will be devoted to one and despise the other. You cannot serve God and wealth." />
-        <Article imgUrl={blog05} date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+        <Article imgUrl={blog05} date="Live Peaceably" text="Follow peace with all men, and holiness, without which no man shall see the Lord (Hebrews 12:14)" />
       </div>
     </div>
   </div>

@@ -17,7 +17,7 @@ const Header = () => (
 
       <div className="gpt3__header-content__people">
         <img src={people} alt={people} />
-        <p>We are an international church</p>
+        <p>We have 15,000+ members globally, <a href="#contact">Join Us Now!</a></p>
       </div>
     </div>
 
