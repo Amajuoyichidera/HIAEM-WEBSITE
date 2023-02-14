@@ -6,7 +6,7 @@ import './header.css';
 const Header = () => (
   <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
-      <p>Welcome To Our He Is Able Evangelical Mission Germany!</p>
+      <p>Welcome To He Is Able Evangelical Mission WorldWide !</p>
       <h1 className="gradient__text">WE ARE GLAD YOU ARE HERE!</h1>
       <p>Christ is still offering Salvation,run to him Now, and get free access to his sonship,tomorrow may be too late! (Galatians 4:1-3).</p>
 

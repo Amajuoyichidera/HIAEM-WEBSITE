@@ -5,7 +5,7 @@
 }
 .get {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 75px;
     font-family: var(--font-family);
     font-weight: 800;
@@ -34,7 +34,7 @@ form h3 {
     padding-bottom: 20px;
 }
 form button {
-    background-color: #ff8A71;
+    background-color: #FF4820;
     font-family: var(--font-family);
     padding: 15px;
     border-radius: 5px;
@@ -47,7 +47,7 @@ form button {
 }
 input {
     padding: 15px;
-    width: 400px;
+    width: 500px;
     border: none;
     outline: none;
     border-radius: 5px;

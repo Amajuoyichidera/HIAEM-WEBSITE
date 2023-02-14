@@ -17,7 +17,7 @@
 .gpt3__footer-heading h1 {
     font-family: var(--font-family);
     font-weight: 800;
-    font-size: 64px;
+    font-size: 40px;
     line-height: 75px;
 }
 
@@ -25,12 +25,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    border-radius: 5px;
     padding: 1rem;
-    border: 1px solid #fff;
     text-align: center;
-
-    margin-bottom: 10rem;
+    background-color: #FF4820;
+    margin-bottom: 5rem;
     cursor: pointer;
 }
 

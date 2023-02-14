@@ -13,7 +13,7 @@ const Footer = () => (
     </div>
 
     <div className="gpt3__footer-btn">
-      <p>GET IN TOUCH</p>
+      <p> <a href="#contact">GET IN TOUCH</a></p>
     </div>
 
     <div className="gpt3__footer-links">
